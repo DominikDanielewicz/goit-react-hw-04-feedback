@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  background-color: #44c767;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #5cbf2a;
+}
+
+.btn:active {
+  position: relative;
+}
